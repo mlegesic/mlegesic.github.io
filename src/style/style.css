@@ -18,6 +18,13 @@ body{
 .main-block{
     width: 100%;
 }
+.documents{
+    width: 100%;
+    background:#28282B;
+}
+.second-block{
+    width: 100%;
+}
 .footer{
     width: 100%;
     background:#28282B;
@@ -92,12 +99,59 @@ body{
     font-weight: 500;
     text-align: justify;
 }
+.documents .container{
+    padding: 50px 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+.documents .container div{
+    padding: 10px 0;
+}
+.documents .container div h1{
+    font-size: 32px;
+    font-family: 'Raleway', bold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.documents .container div p{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.second-block .container div p{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.second-block .container{
+    padding: 50px 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+.second-block .container div{
+    padding: 10px 0;
+}
+.second-block .container div h1{
+    font-size: 32px;
+    font-family: 'Raleway', bold;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.second-block .container div p{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
 .download-link{
     font-size: 20px;
     font-family: 'Raleway', bold;
     font-weight: 700;
 }
-.report-button{
+.show-more-button{
     width: 150px;
     padding: 15px;
     border: 2.5px solid #000;
@@ -122,6 +176,9 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 25px;
+}
+.footer-text{
+    padding: 5px 0;
 }
 .col{
     font-size: 16px;
@@ -180,6 +237,12 @@ body{
     .main-block .container{
         width: 475px;
     }
+    .documents .container{
+        width: 475px;
+    }
+    .second-block .container{
+        width: 475px;
+    }
     .footer .container{
         width: 475px;
     }
@@ -195,6 +258,12 @@ body{
     .main-block .container{
         width: 375px;  
     }
+    .documents .container{
+        width: 375px;
+    }
+    .second-block .container{
+        width: 375px;
+    }
     .footer .container{
         width: 375px;
     }
@@ -204,6 +273,12 @@ body{
     .main-block .container{
         width: 325px;
     }
+    .documents .container{
+        width: 325px;
+    }
+    .second-block .container{
+        width: 325px;
+    }
     .footer .container{
         width: 325px;
     }
@@ -211,6 +286,12 @@ body{
 
 @media (max-width: 375px) { 
     .main-block .container{
+        width: 300px;
+    }
+    .documents .container{
+        width: 300px;
+    }
+    .second-block .container{
         width: 300px;
     }
     .footer .container{
@@ -226,6 +307,12 @@ body{
 
 @media (max-width: 350px) { 
     .main-block .container{
+        width: 275px;
+    }
+    .documents .container{
+        width: 275px;
+    }
+    .second-block .container{
         width: 275px;
     }
     .footer .container{
