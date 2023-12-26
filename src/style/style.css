@@ -92,6 +92,11 @@ body{
     font-weight: 500;
     text-align: justify;
 }
+.download-link{
+    font-size: 20px;
+    font-family: 'Raleway', bold;
+    font-weight: 700;
+}
 .report-button{
     width: 150px;
     padding: 15px;
@@ -103,7 +108,7 @@ body{
     transition: 0.3s;
 }
 .report-button:hover{
-    padding: 20px;
+    width: 200px;
     transition: 0.3s;
 }
 /* main-block */
@@ -216,6 +221,26 @@ body{
     }
     .header .container .title-section .subtitle{
         font-size: 12px;
+    }
+}
+
+@media (max-width: 350px) { 
+    .main-block .container{
+        width: 275px;
+    }
+    .footer .container{
+        width: 275px;
+    }
+    .header .container .title-section .title{
+        font-size: 32px;
+    }
+    .header .container .title-section .subtitle{
+        font-size: 12px;
+    }
+    .main-block .container div p{
+        font-size: 12px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
     }
 }
 /* media */

@@ -26,9 +26,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#about-id">Про нас</a>
-              <a class="nav-link" href="#reports-id">Звіти</a>
-              <a class="nav-link" href="#footer-id">Реквізити</a>
+              <a class="nav-link" href="#about">Про нас</a>
+              <a class="nav-link" href="#documents">Документи</a>
+              <a class="nav-link" href="#gallery">Галерея</a>
+              <a class="nav-link" href="#reports">Звіти</a>
+              <a class="nav-link" href="#footer">Реквізити</a>
             </div>
           </div>
         </div>
@@ -49,9 +51,8 @@
 <!-- main block -->
   <div class="main-block">
     <div class="container d-flex flex-column">
-      <div id="about-id">
+      <div id="about">
         <h1>Про нас</h1>
-        <p class="description-text">Шукаєте зміни у світі? Приєднуйтесь до нас - громадської організації під назвою Миротворці. 🌍✌️</p>
         <p class="description-text">Ми - група активних і відповідальних громадян, які захоплюються ідеєю миру і гармонії у світі.</p>
       </div>
       <div>
@@ -88,40 +89,115 @@
         <h1>Наша мета</h1>
         <p class="description-text">Ми прагнемо покращити  життя людей, розвивати толерантність, взаєморозуміння та вирішувати конфлікти мирним шляхом.</p>
       </div>
-      <div id="reports-id">
+      <div id="documents">
+        <h1>Документи</h1>
+          <div class="download-link">Витяг: <a href="/src/img/go-vpk-mirotvorec.pdf" target="_blank">Переглянути</a></div>
+          <div class="download-link">Статут: <a href="/src/img/statut.pdf" target="_blank">Переглянути</a></div>
+          <div class="col">
+            <div class="row">
+              <img class="col-6" src="/src/img/docs/go-vpk-mirotvorec-1.png" alt="extract-page-1" style="border: 1px solid #000;">
+              <img class="col-6" src="/src/img/docs/go-vpk-mirotvorec-2.png" alt="extract-page-2" style="border: 1px solid #000;">
+            </div>
+          <div class="collapse" id="collapseDocuments">
+            <div class="row">
+              <img class="col-6" src="/src/img/docs/page-1.png" alt="statut-page-1">
+              <img class="col-6" src="/src/img/docs/page-2.png" alt="statut-page-2">
+            </div>
+            <div class="row">
+              <img class="col-6" src="/src/img/docs/page-4.png" alt="statut-page-3">
+              <img class="col-6" src="/src/img/docs/page-5.png" alt="statut-page-4">
+            </div>
+            <div class="row">
+              <img class="col-6" src="/src/img/docs/page-7.png" alt="statut-page-6">
+              <img class="col-6" src="/src/img/docs/page-8.png" alt="statut-page-7">
+            </div>
+            <div class="row">
+              <img class="col-6" src="/src/img/docs/page-7.png" alt="statut-page-6">
+              <img class="col-6" src="/src/img/docs/page-8.png" alt="statut-page-7">
+            </div>
+            <div class="row">
+              <img class="col-6" src="/src/img/docs/page-7.png" alt="statut-page-6">
+              <div class="col-6"></div>
+            </div>
+          </div>
+          <div class="d-flex flex-row justify-content-center align-items-center">
+            <button onclick="showMore(this)" class="report-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDocuments" aria-expanded="false" aria-controls="collapseDocuments">Більше</button>
+          </div>
+        </div>
+      </div>
+      <div id="gallery">
+        <h1>Галерея</h1>
+        <div class="col">
+          <div class="row">
+            <img class="col-4" src="/src/img/gallery/gallery-gif-1.gif" alt="gallery-gif-1">
+            <img class="col-4" src="/src/img/gallery/gallery-gif-2.gif" alt="gallery-gif-2">
+            <img class="col-4" src="/src/img/gallery/gallery-gif-3.gif" alt="gallery-gif-3">
+          </div>
+        <div class="collapse" id="collapseGallery">
+          <div class="row">
+            <img class="col-4" src="/src/img/gallery/gallery-gif-4.gif" alt="gallery-gif-4">
+            <img class="col-4" src="/src/img/gallery/gallery-gif-5.gif" alt="gallery-gif-5">
+            <img class="col-4" src="/src/img/gallery/gallery-gif-6.gif" alt="gallery-gif-6">
+          </div>
+          <div class="row">
+            <img class="col-4" src="/src/img/gallery/gallery-img-1.png" alt="gallery-img-1">
+            <img class="col-4" src="/src/img/gallery/gallery-img-2.png" alt="gallery-img-2">
+            <img class="col-4" src="/src/img/gallery/gallery-img-3.png" alt="gallery-img-3">
+          </div>
+          </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <button onclick="showMore(this)" class="report-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseGallery">Більше</button>
+        </div>
+      </div>
+      <div id="reports">
         <h1>Звіти</h1>
-        <button class="report-button">Більше</button>
+        <div class="col">
+          <div class="row">
+            <div class="col-4"><a href="https://www.instagram.com/p/C1SJ2iCLbNi/" target="_blank"><img src="/src/img/reports/reports-img-1.png" width="90%" alt="report-img-1"></a></div>
+            <div class="col-4 d-flex flex-column justify-content-center" style="color:#000"><p class="ms-auto me-auto">Скоро</p></div>
+            <div class="col-4 d-flex flex-column justify-content-center" style="color:#000"><p class="ms-auto me-auto">Скоро</p></div>
+          </div>
+        <div class="collapse" id="collapseReports">
+          <!-- collapse here -->
+        </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <button onclick="showMore(this)" class="report-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReports" aria-expanded="false" aria-controls="collapseReports">Більше</button>
+        </div>
       </div>
 
     </div>
   </div>
 <!-- main block -->
 <!-- footer -->
-  <footer class="footer" id="footer-id">
+  <footer class="footer" id="footer">
     <div class="container">
       <div class="row col-min-6">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <div class="col footer-title">Про нас:</div>
           <div class="col">м. Обухів, Україна</div>
+          <div class="col">ГО "Військово-патріотичний клуб Миротворець"</div>
+          <div class="col">Код ЄДРПОУ: 38274334</div>
+          
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <div class="col footer-title">Ми в соціальних мережах:</div>
           <div class="col"><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/ua_mirotvorec?igsh=ZGNjOWZkYTE3MQ%3D%3D" target="_blank"> Instagram</a></div>
-          <div class="col"><i class="fa-brands fa-telegram"></i> <a href="#" target="_blank"> Telegram</a></div>
+          <div class="col"><i class="fa-brands fa-telegram"></i> <a href="https://t.me/+MJy5s4VoCm5mNjdi" target="_blank"> Telegram</a></div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <div class="col footer-title">Реквізити:</div>
-          <div class="col">Приват:</div>
-          <div class="col">МоноБанк:</div>
-          <div class="col">Банка Моно:</div>
+          <div class="col">Монобанк: <a href="https://send.monobank.ua/jar/65Wf6XuEmo" target="_blank">Підтримати</a></div>
         </div>
-        <div class="col-md-3 col-sm-6">
+        <!-- <div class="col-md-3 col-sm-6">
           <div class="col footer-title">by vladyslav_fiii</div>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
 <!-- footer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="/src/scripts/index.js"></script>
 </body>
 </html>
