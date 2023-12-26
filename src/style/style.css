@@ -205,6 +205,12 @@ body{
 }
 
 @media (max-width: 375px) { 
+    .main-block .container{
+        width: 300px;
+    }
+    .footer .container{
+        width: 300px;
+    }
     .header .container .title-section .title{
         font-size: 32px;
     }
