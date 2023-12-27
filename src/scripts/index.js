@@ -1,8 +1,8 @@
 function showMore(el){
-    if(el.textContent === "Більше"){
-        el.textContent = "Менше";
+    if(el.textContent === "Показати"){
+        el.textContent = "Приховати";
     }
     else{
-        el.textContent = "Більше";
+        el.textContent = "Показати";
     }
 }
