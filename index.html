@@ -33,7 +33,7 @@
             <div class="navbar-nav">
               <a class="nav-link" href="#about">Про нас</a>
               <!-- <a class="nav-link" href="#activity">Діяльність</a> -->
-              <a class="nav-link" href="#documents">Документи</a>
+              <!-- <a class="nav-link" href="#documents">Документи</a> -->
               <a class="nav-link" href="#gallery">Галерея</a>
               <a class="nav-link" href="#reports">Звіти</a>
               <a class="nav-link" href="#footer">Реквізити</a>
@@ -102,8 +102,71 @@
       </div>
     </div>
   </div>
-      
-  <div class="documents" id="documents">
+<!-- main block -->
+<!-- second block -->
+  <div class="second-block">
+    <div class="container">
+      <div id="gallery">
+        <h1>Галерея</h1>
+        <div class="col">
+          <div class="row">
+            <img class="col-6" src="/src/img/gallery/gallery-gif-1.gif" alt="gallery-gif-1">
+            <img class="col-6" src="/src/img/gallery/gallery-gif-2.gif" alt="gallery-gif-2">
+          </div>
+        <div class="collapse" id="collapseGallery">
+          <div class="row">
+            <img class="col-6" src="/src/img/gallery/gallery-gif-3.gif" alt="gallery-gif-3">
+            <img class="col-6" src="/src/img/gallery/gallery-gif-4.gif" alt="gallery-gif-4">
+          </div>
+          <div class="row">
+            <img class="col-6" src="/src/img/gallery/gallery-gif-5.gif" alt="gallery-gif-5">
+            <img class="col-6" src="/src/img/gallery/gallery-gif-6.gif" alt="gallery-gif-6">
+          </div>
+          <div class="row">
+            <img class="col-6" src="/src/img/gallery/gallery-img-1.png" alt="gallery-img-1">
+            <img class="col-6" src="/src/img/gallery/gallery-img-2.png" alt="gallery-img-2">
+          </div>
+        </div>
+      </div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <button onclick="showMore(this)" class="show-more-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseGallery">Показати</button>
+        </div>
+      </div>
+      <div class="reports" id="reports">
+        <h1>Звіти</h1>
+          <div class="report-cards d-flex">
+            <div class="card-holder">
+              <div class="card">
+                <img src="./src/img/reports/reports-img-1.png" class="card-img-top" alt="report-img-1">
+                <div class="card-body d-flex flex-column justify-content-center align-self-center">
+                  <h5 class="card-title me-auto ms-auto">26.12.2023</h5>
+                  <p class="card-text me-auto ms-auto">Від імені громадської організації Миротворець, хочу висловити велику подяку вам за вашу цінну та небайдужу роботу в годуванні безхатніх. Ваші зусилля і відданість допомагають покращити життя найбільш уразливих членів нашого суспільства.</p>
+                  <a href="https://www.instagram.com/p/C1SJ2iCLbNi/?igsh=ZGNjOWZkYTE3MQ%3D%3D&img_index=1" target="_blank" class="card-button me-auto ms-auto">Посилання</a>
+                </div>
+              </div>
+            </div>
+            <div class="card-holder">
+              
+            </div>
+            <div class="card-holder">
+              
+            </div>
+            <!-- <div class="col-4"><a href="https://www.instagram.com/p/C1SJ2iCLbNi/" target="_blank"><img src="/src/img/reports/reports-img-1.png" width="90%" alt="report-img-1"></a></div>
+            <div class="col-4 d-flex flex-column justify-content-center" style="color:#000"><p class="ms-auto me-auto">Скоро</p></div>
+            <div class="col-4 d-flex flex-column justify-content-center" style="color:#000"><p class="ms-auto me-auto">Скоро</p></div> -->
+          </div>
+        <div class="collapse" id="collapseReports">
+          <!-- collapse here -->
+        </div>
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <button onclick="showMore(this)" class="show-more-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReports" aria-expanded="false" aria-controls="collapseReports">Показати</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- second block -->
+
+<!-- <div class="documents" id="documents">
     <div class="container">
         <h1>Документи</h1>
           <div class="download-link">Статут: <a href="/src/img/statut.pdf" target="_blank">Завантажити</a></div>
@@ -133,94 +196,34 @@
           </div>
           <div class="d-flex flex-row justify-content-center align-items-center">
             <button onclick="showMore(this)" class="show-more-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDocuments" aria-expanded="false" aria-controls="collapseDocuments" style="color:#fff; border: solid #fff;">Показати</button>
-          </div>
+          </div> 
         </div>
-      </div>
-    </div>
-    
-    <div class="second-block">
-      <div class="container">
-      <div id="gallery">
-        <h1>Галерея</h1>
-        <div class="col">
-          <div class="row">
-            <img class="col-6" src="/src/img/gallery/gallery-gif-1.gif" alt="gallery-gif-1">
-            <img class="col-6" src="/src/img/gallery/gallery-gif-2.gif" alt="gallery-gif-2">
-          </div>
-        <div class="collapse" id="collapseGallery">
-          <div class="row">
-            <img class="col-6" src="/src/img/gallery/gallery-gif-3.gif" alt="gallery-gif-3">
-            <img class="col-6" src="/src/img/gallery/gallery-gif-4.gif" alt="gallery-gif-4">
-          </div>
-          <div class="row">
-            <img class="col-6" src="/src/img/gallery/gallery-gif-5.gif" alt="gallery-gif-5">
-            <img class="col-6" src="/src/img/gallery/gallery-gif-6.gif" alt="gallery-gif-6">
-          </div>
-          <div class="row">
-            <img class="col-6" src="/src/img/gallery/gallery-img-1.png" alt="gallery-img-1">
-            <img class="col-6" src="/src/img/gallery/gallery-img-2.png" alt="gallery-img-2">
-          </div>
-          </div>
-        </div>
-        <div class="d-flex flex-row justify-content-center align-items-center">
-          <button onclick="showMore(this)" class="show-more-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGallery" aria-expanded="false" aria-controls="collapseGallery">Показати</button>
-        </div>
-      </div>
-      <div id="reports">
-        <h1>Звіти</h1>
-          <div class="report-cards d-flex">
-            <div class="card-holder">
-              <div class="card">
-                <img src="./src/img/reports/reports-img-1.png" class="card-img-top" alt="report-img-1">
-                <div class="card-body d-flex flex-column justify-content-center align-self-center">
-                  <h5 class="card-title me-auto ms-auto">26.12.2023</h5>
-                  <p class="card-text me-auto ms-auto">Від імені громадської організації Миротворець, хочу висловити велику подяку вам за вашу цінну та небайдужу роботу в годуванні безхатніх. Ваші зусилля і відданість допомагають покращити життя найбільш уразливих членів нашого суспільства.</p>
-                  <a href="https://www.instagram.com/p/C1SJ2iCLbNi/?igsh=ZGNjOWZkYTE3MQ%3D%3D&img_index=1" target="_blank" class="card-button me-auto ms-auto">Посилання</a>
-                </div>
-              </div>
-            </div>
-            <div class="card-holder">
-              
-            </div>
-            <div class="card-holder">
-              
-            </div>
+      </div> -->
 
-
-            <!-- <div class="col-4"><a href="https://www.instagram.com/p/C1SJ2iCLbNi/" target="_blank"><img src="/src/img/reports/reports-img-1.png" width="90%" alt="report-img-1"></a></div>
-            <div class="col-4 d-flex flex-column justify-content-center" style="color:#000"><p class="ms-auto me-auto">Скоро</p></div>
-            <div class="col-4 d-flex flex-column justify-content-center" style="color:#000"><p class="ms-auto me-auto">Скоро</p></div> -->
-          </div>
-        <div class="collapse" id="collapseReports">
-          <!-- collapse here -->
-        </div>
-        <div class="d-flex flex-row justify-content-center align-items-center">
-          <button onclick="showMore(this)" class="show-more-button align-self-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseReports" aria-expanded="false" aria-controls="collapseReports">Показати</button>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- main block -->
 <!-- footer -->
   <footer class="footer" id="footer">
     <div class="container">
       <div class="row col-min-6">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-3 col-sm-6">
           <div class="col footer-title">Про нас:</div>
           <div class="col footer-text">м. Обухів, Україна</div>
           <div class="col footer-text">ГО "Військово-патріотичний клуб Миротворець"</div>
           <div class="col footer-text">Код ЄДРПОУ: 38274334</div>
-          
         </div>
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-3 col-sm-6">
           <div class="col footer-title">Ми в соціальних мережах:</div>
           <div class="col footer-text"><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/ua_mirotvorec?igsh=ZGNjOWZkYTE3MQ%3D%3D" target="_blank"> Instagram</a></div>
           <div class="col footer-text"><i class="fa-brands fa-telegram"></i> <a href="https://t.me/+MJy5s4VoCm5mNjdi" target="_blank"> Telegram</a></div>
         </div>
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-3 col-sm-6">
           <div class="col footer-title">Реквізити:</div>
           <div class="col footer-text">Монобанк: <a href="https://send.monobank.ua/jar/65Wf6XuEmo" target="_blank">Підтримати</a></div>
         </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="col footer-title">Документи:</div>
+          <div class="col footer-text">Статут: <a href="/src/img/statut.pdf" target="_blank">Завантажити</a></div>
+        </div>
+
         <!-- <div class="col-md-3 col-sm-6">
           <div class="col footer-title">by vladyslav_fiii</div>
         </div> -->
