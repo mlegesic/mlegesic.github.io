@@ -165,8 +165,18 @@ body{
     width: 200px;
     transition: 0.3s;
 }
+.report-cards{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-holder{
+    width: 30%;
+}
 .card-body{
     width: 90%;
+}
+.card-text{
+    text-align: justify;
 }
 .card-button{
     background: none;
@@ -234,6 +244,13 @@ body{
     .header .container .title-section .subtitle{
         font-size: 16px;
     }
+    .report-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-holder{
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -243,20 +260,27 @@ body{
     .header .container .title-section .subtitle{
         font-size: 12px;
     }
+    .report-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-holder{
+        width: 80%;
+    }
 }
 
 @media (max-width: 576px) {
     .main-block .container{
-        width: 475px;
+        width: 94%;
     }
     .documents .container{
-        width: 475px;
+        width: 94%;
     }
     .second-block .container{
-        width: 475px;
+        width: 94%;
     }
     .footer .container{
-        width: 475px;
+        width: 94%;
     }
     .header .container .title-section .title{
         font-size: 32px;
@@ -264,50 +288,53 @@ body{
     .header .container .title-section .subtitle{
         font-size: 12px;
     }
+    .report-cards{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 500px) {
     .main-block .container{
-        width: 375px;  
+        width: 94%;
     }
     .documents .container{
-        width: 375px;
+        width: 94%;
     }
     .second-block .container{
-        width: 375px;
+        width: 94%;
     }
     .footer .container{
-        width: 375px;
+        width: 94%;
     }
 }
 
 @media (max-width: 400px) {
     .main-block .container{
-        width: 325px;
+        width: 94%;
     }
     .documents .container{
-        width: 325px;
+        width: 94%;
     }
     .second-block .container{
-        width: 325px;
+        width: 94%;
     }
     .footer .container{
-        width: 325px;
+        width: 94%;
     }
 }
 
 @media (max-width: 375px) { 
     .main-block .container{
-        width: 300px;
+        width: 94%;
     }
     .documents .container{
-        width: 300px;
+        width: 94%;
     }
     .second-block .container{
-        width: 300px;
+        width: 94%;
     }
     .footer .container{
-        width: 300px;
+        width: 94%;
     }
     .header .container .title-section .title{
         font-size: 32px;
@@ -319,16 +346,16 @@ body{
 
 @media (max-width: 350px) { 
     .main-block .container{
-        width: 275px;
+        width: 94%;
     }
     .documents .container{
-        width: 275px;
+        width: 94%;
     }
     .second-block .container{
-        width: 275px;
+        width: 94%;
     }
     .footer .container{
-        width: 275px;
+        width: 94%;
     }
     .header .container .title-section .title{
         font-size: 32px;
