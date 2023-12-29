@@ -97,14 +97,18 @@ body{
     font-weight: 500;
     text-align: justify;
 }
-.carousel{
-    border-radius: 25px;
-    padding: 0;
+.carousel-item-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
 }
-.carousel-inner{
-    border-radius: 25px;
-    background: #28282B;;
-    padding: 0;
+.carousel-item-row div{
+    width: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    border-radius: 15px;
 }
 .download-link{
     font-size: 20px;
@@ -229,6 +233,9 @@ body{
     }
     .card-holder{
         width: 80%;
+    }
+    .carousel-item-row{
+        gap: 10px
     }
 }
 
