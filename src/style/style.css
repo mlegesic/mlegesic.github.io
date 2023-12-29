@@ -86,14 +86,25 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
+.small-description{
+    display: flex;
+    flex-direction: row;
+    gap: 10px 24px;
+}
 .description-text{
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     text-align: justify;
 }
-#carouselGallery-2{
-    background: #28282B;
+.carousel{
+    border-radius: 25px;
+    padding: 0;
+}
+.carousel-inner{
+    border-radius: 25px;
+    background: #28282B;;
+    padding: 0;
 }
 .download-link{
     font-size: 20px;
@@ -192,6 +203,9 @@ body{
     }
     .header .container .title-section .subtitle{
         font-size: 16px;
+    }
+    .small-description{
+        flex-direction: column;
     }
     .report-cards{
         flex-direction: column;
