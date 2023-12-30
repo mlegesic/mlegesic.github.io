@@ -85,11 +85,13 @@ body{
     color: #000;
 }
 .about{
-    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px 24px;
+}
+.description{
+    gap: 25px 0px;
 }
 .description-image{
     display: flex;
