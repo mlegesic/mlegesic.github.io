@@ -86,14 +86,16 @@ body{
 }
 .about{
     height: 100vh;
-    padding: 12.5px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 10px 24px;
 }
-.about div{
-    padding: 12.5px 0;
+.description-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main-block .container div h1{
     padding-bottom: 10px;
@@ -296,6 +298,9 @@ body{
     }
     .header .container .title-section .subtitle{
         font-size: 12px;
+    }
+    .description-image img{
+        width: 90%;
     }
     .report-cards{
         flex-direction: column;
