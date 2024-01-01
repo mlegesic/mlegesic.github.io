@@ -33,7 +33,10 @@ body{
     -ms-overflow-style: none;
 }
 .block{
+    /* border: 1px solid #000;
+    border-radius: 15px; */
     padding: 25px 0px;
+    /* margin: 25px 0px; */
 }
 .fa-brands{
     font-size: 48px;
@@ -130,7 +133,7 @@ img{
 }
 .carousel-item img{
     width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 }
 /* .show-more-button{
     width: 150px;
