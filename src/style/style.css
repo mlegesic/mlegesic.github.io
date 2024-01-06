@@ -106,7 +106,8 @@ img{
     font-weight: 500;
 }
 .social{
-    gap:25px
+    gap:25px;
+    flex-direction: row;
 }
 .social-link{
     display: flex;
@@ -308,6 +309,9 @@ img{
         font-size: 12px;
     }
     .report-cards{
+        flex-direction: column;
+    }
+    .social{
         flex-direction: column;
     }
 }
