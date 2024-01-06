@@ -66,12 +66,14 @@ img{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .title {
     font-size: 128px;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
     color: #fff;
+
 }
 .subtitle{
     font-size: 32px;
@@ -150,6 +152,41 @@ img{
     width: 200px;
     transition: 0.3s;
 } */
+.my-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    align-items: center;
+    
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.my-carousel img{
+    width: 325px;
+    height: 325px;
+    aspect-ratio: 1;
+    scroll-snap-align: center;
+}
+.my-carousel::-webkit-scrollbar {
+    height: 10px;
+    margin-top: 10px;
+    width: calc(100% - 48px);
+  }
+  
+  .my-carousel::-webkit-scrollbar-track {
+    background: #b1b3b399;
+  }
+  
+  .my-carousel::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+  
+  .my-carousel::-webkit-scrollbar-track-piece:start {
+    background: #000;
+  }
+  
 /* gallery */
 /* ================ */
 /* reports */
