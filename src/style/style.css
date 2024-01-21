@@ -453,6 +453,10 @@ img{
 }
 
 @media (max-width: 500px) {
+    .block-background{
+        width: 80%;
+        height: 90%;
+    }
     .block-1{
         width: 100%;
         left: auto;
