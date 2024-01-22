@@ -348,7 +348,7 @@ img{
 
 @media (max-width: 1200px) {
     .column-3{
-        display: none;
+        display: none !important;
     }
 }
 
@@ -376,7 +376,7 @@ img{
 
 @media (max-width: 768px) {
     .column-2{
-        display: none;
+        display: none !important;
     }
     .title{
         font-size: 32px !important;
