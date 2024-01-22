@@ -333,7 +333,15 @@ img{
     color: #fff;
 }
 /* footer */
-
+.column-1{
+    gap: 5px;
+}
+.column-2{
+    gap: 5px;
+}
+.column-3{
+    gap: 5px;
+}
 /* media */
 @media (min-width: 1200px) {
 }
