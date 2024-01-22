@@ -334,12 +334,15 @@ img{
 }
 /* footer */
 .column-1{
+    display: flex;
     gap: 5px;
 }
 .column-2{
+    display: flex;
     gap: 5px;
 }
 .column-3{
+    display: flex;
     gap: 5px;
 }
 /* media */
