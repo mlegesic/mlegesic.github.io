@@ -439,6 +439,14 @@ img{
 }
 
 @media (max-width: 576px) {
+    .qr-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .qr-block{
+        width: 90%;
+    }
     .report-cards{
         flex-direction: column;
         align-items: center;
