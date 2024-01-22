@@ -272,12 +272,22 @@ img{
 }
 /* ================ */
 /* reports */
+.block-reports{
+    display: flex;
+    flex-wrap: wrap;
+}
 .report-cards{
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0px;
 }
 .card-holder{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .card{
     border: 1px solid #000 !important;
@@ -292,6 +302,7 @@ img{
     width: 90%;
 }
 .card-text{
+    font-size: 12px !important;
     text-align: justify;
 }
 .card-button{
@@ -303,6 +314,20 @@ img{
     padding: 10px;
 }
 /* reports */
+.qr-section{
+    display: flex;
+    flex-direction: row;
+    margin-block: 50px;
+}
+.qr-section h2{
+    text-transform: uppercase;
+}
+.qr-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* main-block */
 /* ================ */
 /* footer */
@@ -370,11 +395,13 @@ img{
         flex-direction: column;
     }
     .report-cards{
-        flex-direction: column;
-        align-items: center;
+        gap: 10px 0px;
+    }
+    .card{
+        width: 90%;
     }
     .card-holder{
-        width: 80%;
+        width: 50%;
     }
     .block-1{
         width: 75%;
@@ -406,19 +433,22 @@ img{
     .carousel-item-row{
         flex-wrap: wrap;
     }
-    .report-cards{
-        flex-direction: column;
-        align-items: center;
-    }
-    .card-holder{
-        width: 80%;
-    }
     .carousel-item-row{
         gap: 10px
     }
 }
 
 @media (max-width: 576px) {
+    .report-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-holder{
+        width: 95%;
+    }
+    .card{
+        width: 100%;
+    }
     .title{
         font-size: 24px !important;
     }
@@ -452,9 +482,6 @@ img{
     }
     .footer .container{
         width: 85%;
-    }
-    .report-cards{
-        flex-direction: column;
     }
     .main-block .social{
         gap: 5px 15px;
