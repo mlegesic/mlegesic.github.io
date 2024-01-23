@@ -321,6 +321,7 @@ img{
 }
 .qr-section h2{
     text-transform: capitalize;
+    text-align: center;
 }
 .qr-block{
     display: flex;
