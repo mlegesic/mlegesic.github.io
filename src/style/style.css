@@ -320,7 +320,7 @@ img{
     margin-block: 50px;
 }
 .qr-section h2{
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .qr-block{
     display: flex;
